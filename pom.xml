@@ -3,11 +3,19 @@
   <groupId>Persistance_Spring</groupId>
   <artifactId>Persistance_Spring</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+  <version>4.1.2.RELEASE</version>
+  </properties>
   <dependencies>
   <dependency>
 	<groupId>org.springframework</groupId>
 	<artifactId>spring-jdbc</artifactId>
-	<version>4.1.2.RELEASE</version>
+	<version>${version}</version>
+</dependency>
+  <dependency>
+	<groupId>org.springframework</groupId>
+	<artifactId>spring-context</artifactId>
+	<version>${version}</version>
 </dependency>
   
   </dependencies>
